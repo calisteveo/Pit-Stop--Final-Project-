@@ -1,2 +1,8 @@
-<h1>Main#index</h1>
-<p>Find me in app/views/main/index.html.erb</p>
+<div class="container" ng-controller="IndexCtrl">
+  <h1 class="text-center">My Runs</h1>
+  <div class="row" ng-repeat="run in data.runs">
+    <h2>{{ run.name }}</h2>
+    <p>{{ run.distance }}</p>
+    <p>{{ run.time }}</p>
+  </div>
+</div>

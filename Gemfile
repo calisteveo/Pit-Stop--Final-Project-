@@ -12,7 +12,7 @@ gem 'underscore-rails', '~> 1.6.0'
 
 gem 'twitter-bootstrap-rails', '~> 2.2.8'
 
-gem 'bootstrap'
+gem 'bootstrap-sass', '~> 2.3.1.0'
 
 gem 'angularjs-rails', '~> 1.2.14'
 

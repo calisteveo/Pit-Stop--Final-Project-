@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
   <title>PitStop</title>
   <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
@@ -8,7 +8,7 @@
   <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <%= stylesheet_link_tag    "application", media: "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "application", controller_name %>
   <%= csrf_meta_tags %>
 </head>
 <body>
