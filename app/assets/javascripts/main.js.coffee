@@ -11,9 +11,9 @@
 #= require_tree ./directives/global
 #= require_tree ./directives/main
 
-# Run = angular.module('Run', [])
+myApp = angular.module('myApp', [])
 
-# Run.config(['$routeProvider', ($routeProvider) ->
-#   $routeProvider.when('/run', { templateUrl: '../assets/mainRun.html', controller: 'RunCtrl' })
-#   $routeProvider.otherwise({ templateUrl: '../assets/mainIndex.html', controller: 'IndexCtrl' })
-# ])
+myApp.config(['$routeProvider', ($routeProvider) ->
+  $routeProvider.when('/user', { templateUrl: '../assets/mainUser.html', controller: 'UserCtrl' })
+  $routeProvider.otherwise({ templateUrl: '../assets/mainIndex.html', controller: 'IndexCtrl' })
+])
