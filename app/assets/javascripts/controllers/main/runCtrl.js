@@ -1,5 +1,3 @@
-'use strict';
-
 var runControllers = angular.module('runControllers', []);
 
 runControllers.controller('RunListCtrl', ['$scope',
